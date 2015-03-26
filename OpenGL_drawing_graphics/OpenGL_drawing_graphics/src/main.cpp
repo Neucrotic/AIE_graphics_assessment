@@ -14,6 +14,7 @@
 #include "Tutorial7.h"
 #include "Tutorial8.h"
 #include "Tutorial9.h"
+#include "Tutorial10.h"
 #include "ParticleSystem.h"
 #include "TextureLoader.h"
 #include "MyObjLoader.h"
@@ -25,7 +26,7 @@ int main()
 {
 	vector<float> outVerts;
 
-	Tutorial9* app = new Tutorial9();
+	Tutorial10* app = new Tutorial10();
 	//ParticleSystem* particleSystem = new ParticleSystem();
 
 	app->Run();
